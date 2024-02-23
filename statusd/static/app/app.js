@@ -105,7 +105,7 @@
      * @param {HTMLElement} card - card that needs to be set up.
      * @param {JSON} data - data from which the name of the card is extracted.
      */
-    function setName(card, data) {;
+    function setName(card, data) {
         if (LOGGED_IN) {
             let nameLink = $('<a>')
                 .attr('href', 'https://' + data.meta.ip)
